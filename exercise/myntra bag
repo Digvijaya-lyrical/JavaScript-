@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="myntra bag.css">
+  <title>Myntra Bag</title>
+</head>
+<body>
+  <button class="bag-button" onclick="alert('Item has been added to Bag')">Add to Bag</button>
+  <button class="wish-button" onclick="alert('Item has been added to the wishlist')"> Wishlist</button>
+  <button class="bag-button" onclick="alert('Item has been added to Bag');">Add 1+1 Sale Item</button>
+  <h1>Your Bag has 0 items</h1>
+  <script>
+    let cartQuantity = 0;
+  </script>
+</body>
+</html>
